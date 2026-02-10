@@ -43,37 +43,37 @@ export default function KitchenPage() {
             <section className="container section-padding" style={{ borderTop: '1px solid #333' }}>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem', marginTop: '4rem', marginBottom: '4rem' }}>
                     <div style={{ position: 'relative', height: '300px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <Image src="/images/hanot_kitchen_food_1.jpg" alt="Hanot Dish 1" fill style={{ objectFit: 'cover' }} />
+                        <Image src="/images/hanot_kitchen_food_1.jpg" alt="Hanot Dish 1" fill style={{ objectFit: 'cover' }} quality={100} />
                     </div>
                     <div style={{ position: 'relative', height: '300px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <Image src="/images/hanot_kitchen_food_2.jpg" alt="Hanot Dish 2" fill style={{ objectFit: 'cover' }} />
+                        <Image src="/images/hanot_kitchen_food_2.jpg" alt="Hanot Dish 2" fill style={{ objectFit: 'cover' }} quality={100} />
                     </div>
                     <div style={{ position: 'relative', height: '300px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <Image src="/images/hanot_kitchen_food_3.jpg" alt="Hanot Dish 3" fill style={{ objectFit: 'cover' }} />
+                        <Image src="/images/hanot_kitchen_food_3.jpg" alt="Hanot Dish 3" fill style={{ objectFit: 'cover' }} quality={100} />
                     </div>
                     <div style={{ position: 'relative', height: '300px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <Image src="/images/hanot_kitchen_food_4.jpg" alt="Hanot Dish 4" fill style={{ objectFit: 'cover' }} />
+                        <Image src="/images/hanot_kitchen_food_4.jpg" alt="Hanot Dish 4" fill style={{ objectFit: 'cover' }} quality={100} />
                     </div>
                     <div style={{ position: 'relative', height: '300px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <Image src="/images/hanot_kitchen_food_5.jpg" alt="Hanot Dish 5" fill style={{ objectFit: 'cover' }} />
+                        <Image src="/images/hanot_kitchen_food_5.jpg" alt="Hanot Dish 5" fill style={{ objectFit: 'cover' }} quality={100} />
                     </div>
                     <div style={{ position: 'relative', height: '300px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <Image src="/images/hanot_kitchen_food_6.jpg" alt="Hanot Dish 6" fill style={{ objectFit: 'cover' }} />
+                        <Image src="/images/hanot_kitchen_food_6.jpg" alt="Hanot Dish 6" fill style={{ objectFit: 'cover' }} quality={100} />
                     </div>
                     <div style={{ position: 'relative', height: '300px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <Image src="/images/hanot_kitchen_food_7.jpg" alt="Hanot Dish 7" fill style={{ objectFit: 'cover' }} />
+                        <Image src="/images/hanot_kitchen_food_7.jpg" alt="Hanot Dish 7" fill style={{ objectFit: 'cover' }} quality={100} />
                     </div>
                     <div style={{ position: 'relative', height: '300px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <Image src="/images/hanot_kitchen_food_8.jpg" alt="Hanot Dish 8" fill style={{ objectFit: 'cover' }} />
+                        <Image src="/images/hanot_kitchen_food_8.jpg" alt="Hanot Dish 8" fill style={{ objectFit: 'cover' }} quality={100} />
                     </div>
                     <div style={{ position: 'relative', height: '300px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <Image src="/images/hanot_kitchen_food_9.jpg" alt="Hanot Dish 9" fill style={{ objectFit: 'cover' }} />
+                        <Image src="/images/hanot_kitchen_food_9.jpg" alt="Hanot Dish 9" fill style={{ objectFit: 'cover' }} quality={100} />
                     </div>
                     <div style={{ position: 'relative', height: '300px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <Image src="/images/hanot_kitchen_food_10.jpg" alt="Hanot Dish 10" fill style={{ objectFit: 'cover' }} />
+                        <Image src="/images/hanot_kitchen_food_10.jpg" alt="Hanot Dish 10" fill style={{ objectFit: 'cover' }} quality={100} />
                     </div>
                     <div style={{ position: 'relative', height: '300px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <Image src="/images/hanot_kitchen_food_11.jpg" alt="Hanot Dish 11" fill style={{ objectFit: 'cover' }} />
+                        <Image src="/images/hanot_kitchen_food_11.jpg" alt="Hanot Dish 11" fill style={{ objectFit: 'cover' }} quality={100} />
                     </div>
                 </div>
 

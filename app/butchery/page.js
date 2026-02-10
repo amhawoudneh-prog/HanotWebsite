@@ -29,8 +29,21 @@ export default function ButcheryPage() {
                     From our display counter to your plate, experience the true taste of quality.
                     Perfect for family gatherings and meat lovers.
                 </p>
-                <div style={{ position: 'relative', height: '400px', maxWidth: '800px', margin: '0 auto', borderRadius: '12px', overflow: 'hidden' }}>
-                    <Image src="/images/hanot_butchery_food_1.jpg" alt="Hanot Butchery Special" fill style={{ objectFit: 'cover' }} />
+            </section>
+
+            {/* Food Gallery Section */}
+            <section className="container" style={{ paddingBottom: '4rem' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
+                    <div style={{ position: 'relative', height: '600px', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.3)' }}>
+                        <Image
+                            src="/images/hanot_butchery_food_1.jpg"
+                            alt="Hanot Butchery Special"
+                            fill
+                            style={{ objectFit: 'cover' }}
+                            quality={100}
+                            priority
+                        />
+                    </div>
                 </div>
             </section>
 
