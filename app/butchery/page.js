@@ -33,13 +33,14 @@ export default function ButcheryPage() {
 
             {/* Food Gallery Section */}
             <section className="container" style={{ paddingBottom: '4rem' }}>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
-                    <div style={{ position: 'relative', height: '600px', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.3)' }}>
+                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                    <div style={{ width: '100%', maxWidth: '600px', position: 'relative', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.3)' }}>
                         <Image
                             src="/images/hanot_butchery_food_1.jpg"
                             alt="Hanot Butchery Special"
-                            fill
-                            style={{ objectFit: 'cover' }}
+                            width={1080}
+                            height={1920}
+                            style={{ width: '100%', height: 'auto', display: 'block' }}
                             quality={100}
                             priority
                         />
